@@ -67,6 +67,7 @@
 
     <modules>
         <module>page-factory-pattern</module>
+        <module>page-object-pattern</module>
     </modules>
 
 </project>
