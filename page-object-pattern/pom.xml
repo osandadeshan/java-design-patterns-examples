@@ -10,9 +10,9 @@
     </parent>
 
     <groupId>com.osanda.javadesignpatterns</groupId>
-    <artifactId>page-factory-pattern</artifactId>
+    <artifactId>page-object-pattern</artifactId>
     <version>1.0-SNAPSHOT</version>
-    <name>page-factory-pattern</name>
+    <name>page-object-pattern</name>
     <packaging>jar</packaging>
 
     <properties>
@@ -31,7 +31,7 @@
             <version>3.6.1</version>
         </dependency>
         <dependency>
-          <groupId>org.testng</groupId>
+            <groupId>org.testng</groupId>
             <artifactId>testng</artifactId>
             <version>7.0.0</version>
             <scope>test</scope>
@@ -40,6 +40,12 @@
             <groupId>junit</groupId>
             <artifactId>junit</artifactId>
             <version>4.11</version>
+            <scope>test</scope>
+        </dependency>
+        <dependency>
+            <groupId>com.osanda.javadesignpatterns</groupId>
+            <artifactId>page-factory-pattern</artifactId>
+            <version>1.0-SNAPSHOT</version>
             <scope>test</scope>
         </dependency>
     </dependencies>
