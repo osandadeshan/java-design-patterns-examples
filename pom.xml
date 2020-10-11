@@ -65,4 +65,8 @@
         </pluginManagement>
     </build>
 
+    <modules>
+        <module>page-factory-pattern</module>
+    </modules>
+
 </project>
